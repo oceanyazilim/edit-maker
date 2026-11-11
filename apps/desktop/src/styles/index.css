@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens (workstation theme).
+ *   app-bg #080a0d · panel #101216 · surface #17191e · border #282b32
+ *   text #e7e9ed / #979ba5 / #686d78 · accent #4387ef
+ * Token names are shared by every page, so the whole app follows this theme.
+ */
+@theme {
+  --color-base: #080a0d; /* app background */
+  --color-surface: #101216; /* panels */
+  --color-raised: #17191e; /* cards, inputs, hover */
+  --color-overlay: #1e2127; /* active / pressed */
+  --color-line: #282b32;
+  --color-line-strong: #383c45;
+  --color-fg: #e7e9ed;
+  --color-muted: #979ba5;
+  --color-dim: #686d78;
+  --color-accent: #4387ef;
+  --color-accent-hover: #5b97f2;
+  --color-accent-fg: #ffffff;
+  --color-ok: #3ecf8e;
+  --color-warn: #f2b84b;
+  --color-err: #f26d6d;
+  --color-beat: #7aa7f5;
+  --color-kick: #f2c14b;
+  --color-snare: #b98cf5;
+  --color-drop: #f26d6d;
+  --font-sans: "Inter", "Geist", "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "Geist Mono", "JetBrains Mono", "Cascadia Mono", Consolas, monospace;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-base);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  font-size: 12px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+  overflow: hidden;
+}
+
+input,
+textarea,
+select {
+  user-select: text;
+  font: inherit;
+}
+
+select {
+  background-color: var(--color-raised);
+  color: var(--color-fg);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #2b2e36;
+  border-radius: 6px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3e48;
+  background-clip: content-box;
+  border: 3px solid transparent;
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+input[type="range"] {
+  accent-color: var(--color-accent);
+}
+input[type="checkbox"],
+input[type="radio"] {
+  accent-color: var(--color-accent);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Cheap virtualization for long lists: skip layout/paint of off-screen rows. */
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 64px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 1px;
+}
+
+/* Resize handles between workstation regions. */
+.resize-x {
+  width: 4px;
+  margin: 0 -2px;
+  cursor: col-resize;
+  position: relative;
+  z-index: 15;
+  flex-shrink: 0;
+}
+.resize-y {
+  height: 4px;
+  margin: -2px 0;
+  cursor: row-resize;
+  position: relative;
+  z-index: 15;
+  flex-shrink: 0;
+}
+.resize-x:hover,
+.resize-y:hover,
+.resize-x:active,
+.resize-y:active {
+  background: var(--color-accent);
+}

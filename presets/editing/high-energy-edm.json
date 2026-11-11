@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "high-energy-edm",
+  "name": "High-Energy EDM",
+  "version": 1,
+  "description": "Four-on-the-floor sync, accelerating build-ups, zoom pulses on strong kicks in drops.",
+  "pacing": {
+    "base_shot_beats": 4.0,
+    "section_multipliers": {
+      "intro": 2.0,
+      "groove": 1.0,
+      "build_up": 1.0,
+      "drop": 0.5,
+      "breakdown": 2.0,
+      "outro": 2.0
+    },
+    "min_shot_secs": 0.35,
+    "max_shot_secs": 4.0,
+    "build_up_acceleration": 1.0
+  },
+  "beat_sync": 0.95,
+  "drop": {
+    "impact": 0.9,
+    "position": 0.35,
+    "flash": true,
+    "zoom_punch": 0.12,
+    "rgb_split": true,
+    "shake": false,
+    "pre_drop_hold_beats": 1.0,
+    "pre_drop_slowmo": 1.0,
+    "velocity": 0.6,
+    "glitch": 0.3,
+    "zoom_blur": 0.1
+  },
+  "effects": {
+    "intensity": 0.75,
+    "kick_zoom": 0.06,
+    "kick_shake": 0.0,
+    "kick_threshold": 0.4,
+    "cooldown_beats": 0.0,
+    "max_per_bar": 4,
+    "kick_sections": [
+      "drop"
+    ],
+    "color": {
+      "brightness": 0.0,
+      "contrast": 1.15,
+      "saturation": 1.2
+    },
+    "vignette": 0.15,
+    "slow_zoom": 0.02,
+    "kick_glitch": 0.2,
+    "kick_blur": 0.03,
+    "kick_chroma": 0.015
+  },
+  "transitions": {
+    "frequency": 0.15,
+    "kinds": [
+      "cross_dissolve",
+      "flash_cut"
+    ],
+    "duration_beats": 0.5,
+    "sections": [
+      "intro",
+      "breakdown",
+      "outro",
+      "build_up"
+    ]
+  },
+  "energy_bias": 0.3,
+  "smart_crop": true,
+  "fade_in_secs": 0.0,
+  "fade_out_secs": 0.6,
+  "output": {
+    "platforms": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "aspect": "9:16",
+    "duration_secs": 20
+  },
+  "tags": [
+    "edm"
+  ]
+}

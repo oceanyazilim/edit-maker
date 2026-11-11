@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "aggressive-phonk",
+  "name": "Aggressive Phonk",
+  "version": 1,
+  "description": "Hard kick-synced cuts, camera shake and zoom punches, dark contrasty grade.",
+  "pacing": {
+    "base_shot_beats": 2.0,
+    "section_multipliers": {
+      "intro": 2.0,
+      "groove": 1.0,
+      "build_up": 0.75,
+      "drop": 0.5,
+      "breakdown": 1.5,
+      "outro": 2.0
+    },
+    "min_shot_secs": 0.3,
+    "max_shot_secs": 3.5,
+    "build_up_acceleration": 0.6
+  },
+  "beat_sync": 0.95,
+  "drop": {
+    "impact": 0.95,
+    "position": 0.3,
+    "flash": true,
+    "zoom_punch": 0.14,
+    "rgb_split": true,
+    "shake": true,
+    "pre_drop_hold_beats": 1.0,
+    "pre_drop_slowmo": 0.6,
+    "velocity": 0.9,
+    "glitch": 0.7,
+    "zoom_blur": 0.12
+  },
+  "effects": {
+    "intensity": 0.85,
+    "kick_zoom": 0.07,
+    "kick_shake": 0.012,
+    "kick_threshold": 0.4,
+    "cooldown_beats": 0.5,
+    "max_per_bar": 4,
+    "kick_sections": [
+      "drop",
+      "groove"
+    ],
+    "color": {
+      "brightness": -0.04,
+      "contrast": 1.25,
+      "saturation": 0.85
+    },
+    "vignette": 0.35,
+    "slow_zoom": 0.0,
+    "kick_glitch": 0.5,
+    "kick_blur": 0.04,
+    "kick_chroma": 0.02
+  },
+  "transitions": {
+    "frequency": 0.05,
+    "kinds": [
+      "flash_cut"
+    ],
+    "duration_beats": 0.25,
+    "sections": [
+      "drop"
+    ]
+  },
+  "energy_bias": 0.3,
+  "smart_crop": true,
+  "fade_in_secs": 0.0,
+  "fade_out_secs": 0.6,
+  "output": {
+    "platforms": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "aspect": "9:16",
+    "duration_secs": 20
+  },
+  "tags": [
+    "phonk",
+    "dark"
+  ]
+}

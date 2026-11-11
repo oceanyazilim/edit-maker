@@ -1,0 +1,14 @@
+/target
+node_modules/
+apps/desktop/dist/
+apps/desktop/src-tauri/gen/
+third_party/
+fixtures/generated/
+*.partial.mp4
+# Render outputs and local artefacts
+/out/
+*.mp4
+*.wav
+*.aesproj.autosave
+.vite/
+*.log

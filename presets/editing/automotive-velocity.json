@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "automotive-velocity",
+  "name": "Automotive Velocity",
+  "version": 1,
+  "description": "Pan- and motion-heavy shots, speed-feel cuts on kicks, cool contrasty grade.",
+  "pacing": {
+    "base_shot_beats": 3.0,
+    "section_multipliers": {
+      "intro": 2.0,
+      "groove": 1.0,
+      "build_up": 0.75,
+      "drop": 0.5,
+      "breakdown": 1.5,
+      "outro": 2.0
+    },
+    "min_shot_secs": 0.35,
+    "max_shot_secs": 4.0,
+    "build_up_acceleration": 0.6
+  },
+  "beat_sync": 0.85,
+  "drop": {
+    "impact": 0.85,
+    "position": 0.3,
+    "flash": true,
+    "zoom_punch": 0.1,
+    "rgb_split": true,
+    "shake": true,
+    "pre_drop_hold_beats": 1.0,
+    "pre_drop_slowmo": 1.0,
+    "velocity": 0.9,
+    "glitch": 0.0,
+    "zoom_blur": 0.12
+  },
+  "effects": {
+    "intensity": 0.65,
+    "kick_zoom": 0.05,
+    "kick_shake": 0.007,
+    "kick_threshold": 0.45,
+    "cooldown_beats": 1.0,
+    "max_per_bar": 2,
+    "kick_sections": [
+      "drop",
+      "groove"
+    ],
+    "color": {
+      "brightness": -0.02,
+      "contrast": 1.2,
+      "saturation": 0.95
+    },
+    "vignette": 0.25,
+    "slow_zoom": 0.0,
+    "kick_glitch": 0.0,
+    "kick_blur": 0.06,
+    "kick_chroma": 0.0
+  },
+  "transitions": {
+    "frequency": 0.12,
+    "kinds": [
+      "zoom_blend"
+    ],
+    "duration_beats": 0.5,
+    "sections": [
+      "intro",
+      "build_up"
+    ]
+  },
+  "energy_bias": 0.4,
+  "smart_crop": true,
+  "fade_in_secs": 0.0,
+  "fade_out_secs": 0.6,
+  "output": {
+    "platforms": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "aspect": "9:16",
+    "duration_secs": 20
+  },
+  "tags": [
+    "automotive"
+  ]
+}

@@ -1,0 +1,13 @@
+[package]
+name = "studio-jobs"
+description = "Background job scheduler: bounded concurrency per job kind, progress events, cancellation, failure isolation."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+studio-core = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+uuid = { workspace = true }
+tracing = { workspace = true }

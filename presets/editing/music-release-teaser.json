@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "music-release-teaser",
+  "name": "Music Release Teaser",
+  "version": 1,
+  "description": "Build-up into the main drop, which lands at ~45%; strong impact, short outro.",
+  "pacing": {
+    "base_shot_beats": 4.0,
+    "section_multipliers": {
+      "intro": 2.0,
+      "groove": 1.0,
+      "build_up": 0.75,
+      "drop": 0.5,
+      "breakdown": 1.5,
+      "outro": 2.0
+    },
+    "min_shot_secs": 0.35,
+    "max_shot_secs": 5.0,
+    "build_up_acceleration": 0.8
+  },
+  "beat_sync": 0.9,
+  "drop": {
+    "impact": 1.0,
+    "position": 0.45,
+    "flash": true,
+    "zoom_punch": 0.14,
+    "rgb_split": true,
+    "shake": true,
+    "pre_drop_hold_beats": 1.0,
+    "pre_drop_slowmo": 0.6,
+    "velocity": 0.6,
+    "glitch": 0.4,
+    "zoom_blur": 0.1
+  },
+  "effects": {
+    "intensity": 0.7,
+    "kick_zoom": 0.06,
+    "kick_shake": 0.008,
+    "kick_threshold": 0.45,
+    "cooldown_beats": 1.0,
+    "max_per_bar": 2,
+    "kick_sections": [
+      "drop"
+    ],
+    "color": {
+      "brightness": -0.02,
+      "contrast": 1.15,
+      "saturation": 1.0
+    },
+    "vignette": 0.25,
+    "slow_zoom": 0.04,
+    "kick_glitch": 0.2,
+    "kick_blur": 0.0,
+    "kick_chroma": 0.015
+  },
+  "transitions": {
+    "frequency": 0.2,
+    "kinds": [
+      "cross_dissolve",
+      "flash_cut"
+    ],
+    "duration_beats": 0.5,
+    "sections": [
+      "intro",
+      "build_up",
+      "outro"
+    ]
+  },
+  "energy_bias": 0.1,
+  "smart_crop": true,
+  "fade_in_secs": 0.3,
+  "fade_out_secs": 1.0,
+  "output": {
+    "platforms": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "aspect": "9:16",
+    "duration_secs": 15
+  },
+  "tags": [
+    "teaser",
+    "music"
+  ]
+}

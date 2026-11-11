@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "anime-impact",
+  "name": "Anime Impact",
+  "version": 1,
+  "description": "Action-first selection, strong drop synchronisation, flash and RGB split on impacts.",
+  "pacing": {
+    "base_shot_beats": 3.0,
+    "section_multipliers": {
+      "intro": 2.0,
+      "groove": 1.0,
+      "build_up": 0.8,
+      "drop": 0.5,
+      "breakdown": 2.0,
+      "outro": 2.0
+    },
+    "min_shot_secs": 0.35,
+    "max_shot_secs": 4.0,
+    "build_up_acceleration": 0.7
+  },
+  "beat_sync": 0.9,
+  "drop": {
+    "impact": 1.0,
+    "position": 0.35,
+    "flash": true,
+    "zoom_punch": 0.15,
+    "rgb_split": true,
+    "shake": false,
+    "pre_drop_hold_beats": 1.0,
+    "pre_drop_slowmo": 0.5,
+    "velocity": 0.8,
+    "glitch": 0.4,
+    "zoom_blur": 0.15
+  },
+  "effects": {
+    "intensity": 0.75,
+    "kick_zoom": 0.06,
+    "kick_shake": 0.006,
+    "kick_threshold": 0.5,
+    "cooldown_beats": 1.0,
+    "max_per_bar": 2,
+    "kick_sections": [
+      "drop"
+    ],
+    "color": {
+      "brightness": 0.0,
+      "contrast": 1.1,
+      "saturation": 1.15
+    },
+    "vignette": 0.2,
+    "slow_zoom": 0.03,
+    "kick_glitch": 0.25,
+    "kick_blur": 0.04,
+    "kick_chroma": 0.02
+  },
+  "transitions": {
+    "frequency": 0.15,
+    "kinds": [
+      "flash_cut",
+      "cross_dissolve"
+    ],
+    "duration_beats": 0.5,
+    "sections": [
+      "intro",
+      "breakdown",
+      "outro"
+    ]
+  },
+  "energy_bias": 0.25,
+  "smart_crop": true,
+  "fade_in_secs": 0.0,
+  "fade_out_secs": 0.6,
+  "output": {
+    "platforms": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "aspect": "9:16",
+    "duration_secs": 20
+  },
+  "tags": [
+    "anime",
+    "action"
+  ],
+  "scoring": {
+    "energy_match": 1.0,
+    "quality": 0.4,
+    "action_alignment": 1.2,
+    "repetition_penalty": 1.6,
+    "continuity": 0.6,
+    "diversity": 0.5,
+    "niche_tags": 0.5,
+    "duration_fit": 0.3
+  }
+}

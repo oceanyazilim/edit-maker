@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "short-form-viral-hook",
+  "name": "Short-Form Viral Hook",
+  "version": 1,
+  "description": "Immediate high-energy hook in the first second, drop early (~20%), punchy pacing.",
+  "pacing": {
+    "base_shot_beats": 2.0,
+    "section_multipliers": {
+      "intro": 0.75,
+      "groove": 0.75,
+      "build_up": 0.75,
+      "drop": 0.5,
+      "breakdown": 1.0,
+      "outro": 1.5
+    },
+    "min_shot_secs": 0.3,
+    "max_shot_secs": 3.0,
+    "build_up_acceleration": 0.7
+  },
+  "beat_sync": 0.9,
+  "drop": {
+    "impact": 0.9,
+    "position": 0.2,
+    "flash": true,
+    "zoom_punch": 0.12,
+    "rgb_split": false,
+    "shake": true,
+    "pre_drop_hold_beats": 0.5,
+    "pre_drop_slowmo": 1.0,
+    "velocity": 0.7,
+    "glitch": 0.4,
+    "zoom_blur": 0.08
+  },
+  "effects": {
+    "intensity": 0.7,
+    "kick_zoom": 0.05,
+    "kick_shake": 0.006,
+    "kick_threshold": 0.45,
+    "cooldown_beats": 1.0,
+    "max_per_bar": 2,
+    "kick_sections": [
+      "drop",
+      "groove",
+      "intro"
+    ],
+    "color": {
+      "brightness": 0.02,
+      "contrast": 1.12,
+      "saturation": 1.15
+    },
+    "vignette": 0.15,
+    "slow_zoom": 0.0,
+    "kick_glitch": 0.3,
+    "kick_blur": 0.03,
+    "kick_chroma": 0.0
+  },
+  "transitions": {
+    "frequency": 0.1,
+    "kinds": [
+      "flash_cut"
+    ],
+    "duration_beats": 0.25,
+    "sections": [
+      "drop"
+    ]
+  },
+  "energy_bias": 0.4,
+  "smart_crop": true,
+  "fade_in_secs": 0.0,
+  "fade_out_secs": 0.4,
+  "output": {
+    "platforms": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "aspect": "9:16",
+    "duration_secs": 12
+  },
+  "tags": [
+    "hook"
+  ]
+}

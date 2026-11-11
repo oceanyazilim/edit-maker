@@ -1,0 +1,20 @@
+[package]
+name = "studio-cli"
+description = "Headless command-line interface to the engine (diagnostics, analysis, automatic edits)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "aes"
+path = "src/main.rs"
+
+[dependencies]
+studio-core = { workspace = true }
+studio-audio = { workspace = true }
+studio-media = { workspace = true }
+studio-planner = { workspace = true }
+studio-render = { workspace = true }
+studio-project = { workspace = true }
+serde_json = { workspace = true }
+tracing-subscriber = { workspace = true }

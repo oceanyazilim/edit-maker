@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "brazilian-funk-velocity",
+  "name": "Brazilian Funk Velocity",
+  "version": 1,
+  "description": "Fast syncopated cutting on funk kicks, saturated colour, frequent punches.",
+  "pacing": {
+    "base_shot_beats": 2.0,
+    "section_multipliers": {
+      "intro": 1.5,
+      "groove": 0.75,
+      "build_up": 0.75,
+      "drop": 0.5,
+      "breakdown": 1.0,
+      "outro": 1.5
+    },
+    "min_shot_secs": 0.3,
+    "max_shot_secs": 3.0,
+    "build_up_acceleration": 0.4
+  },
+  "beat_sync": 0.9,
+  "drop": {
+    "impact": 0.85,
+    "position": 0.25,
+    "flash": true,
+    "zoom_punch": 0.12,
+    "rgb_split": false,
+    "shake": true,
+    "pre_drop_hold_beats": 0.5,
+    "pre_drop_slowmo": 1.0,
+    "velocity": 1.0,
+    "glitch": 0.5,
+    "zoom_blur": 0.1
+  },
+  "effects": {
+    "intensity": 0.8,
+    "kick_zoom": 0.06,
+    "kick_shake": 0.008,
+    "kick_threshold": 0.35,
+    "cooldown_beats": 0.5,
+    "max_per_bar": 4,
+    "kick_sections": [
+      "drop",
+      "groove",
+      "build_up"
+    ],
+    "color": {
+      "brightness": 0.02,
+      "contrast": 1.15,
+      "saturation": 1.3
+    },
+    "vignette": 0.15,
+    "slow_zoom": 0.0,
+    "kick_glitch": 0.4,
+    "kick_blur": 0.05,
+    "kick_chroma": 0.015
+  },
+  "transitions": {
+    "frequency": 0.08,
+    "kinds": [
+      "zoom_blend",
+      "flash_cut"
+    ],
+    "duration_beats": 0.25,
+    "sections": [
+      "build_up",
+      "drop"
+    ]
+  },
+  "energy_bias": 0.35,
+  "smart_crop": true,
+  "fade_in_secs": 0.0,
+  "fade_out_secs": 0.6,
+  "output": {
+    "platforms": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "aspect": "9:16",
+    "duration_secs": 20
+  },
+  "tags": [
+    "funk"
+  ]
+}

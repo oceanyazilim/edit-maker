@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "atmospheric-ambient",
+  "name": "Atmospheric Ambient",
+  "version": 1,
+  "description": "Very long shots, dissolves, slow drift, no beat-hard effects.",
+  "pacing": {
+    "base_shot_beats": 16.0,
+    "section_multipliers": {
+      "intro": 1.5,
+      "groove": 1.0,
+      "build_up": 1.0,
+      "drop": 0.8,
+      "breakdown": 1.5,
+      "outro": 1.5
+    },
+    "min_shot_secs": 2.0,
+    "max_shot_secs": 14.0,
+    "build_up_acceleration": 0.0
+  },
+  "beat_sync": 0.4,
+  "drop": {
+    "impact": 0.2,
+    "position": 0.5,
+    "flash": false,
+    "zoom_punch": 0.0,
+    "rgb_split": false,
+    "shake": false,
+    "pre_drop_hold_beats": 0.0,
+    "pre_drop_slowmo": 1.0,
+    "velocity": 0,
+    "glitch": 0,
+    "zoom_blur": 0
+  },
+  "effects": {
+    "intensity": 0.15,
+    "kick_zoom": 0.0,
+    "kick_shake": 0.0,
+    "kick_threshold": 1.0,
+    "cooldown_beats": 8.0,
+    "max_per_bar": 0,
+    "kick_sections": [],
+    "color": {
+      "brightness": 0.0,
+      "contrast": 0.95,
+      "saturation": 0.9
+    },
+    "vignette": 0.2,
+    "slow_zoom": 0.1,
+    "kick_glitch": 0,
+    "kick_blur": 0,
+    "kick_chroma": 0
+  },
+  "transitions": {
+    "frequency": 0.8,
+    "kinds": [
+      "cross_dissolve"
+    ],
+    "duration_beats": 2.0,
+    "sections": [
+      "intro",
+      "groove",
+      "build_up",
+      "drop",
+      "breakdown",
+      "outro"
+    ]
+  },
+  "energy_bias": -0.5,
+  "smart_crop": true,
+  "fade_in_secs": 1.5,
+  "fade_out_secs": 2.0,
+  "output": {
+    "platforms": [
+      "youtube"
+    ],
+    "aspect": "16:9",
+    "duration_secs": 30
+  },
+  "tags": [
+    "ambient"
+  ]
+}

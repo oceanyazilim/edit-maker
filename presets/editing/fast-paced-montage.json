@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "fast-paced-montage",
+  "name": "Fast-Paced Montage",
+  "version": 1,
+  "description": "High cut density everywhere, maximum variety, quick zoom blends.",
+  "pacing": {
+    "base_shot_beats": 1.5,
+    "section_multipliers": {
+      "intro": 1.0,
+      "groove": 0.75,
+      "build_up": 0.6,
+      "drop": 0.5,
+      "breakdown": 1.0,
+      "outro": 1.0
+    },
+    "min_shot_secs": 0.25,
+    "max_shot_secs": 2.5,
+    "build_up_acceleration": 0.5
+  },
+  "beat_sync": 0.85,
+  "drop": {
+    "impact": 0.7,
+    "position": 0.3,
+    "flash": true,
+    "zoom_punch": 0.08,
+    "rgb_split": false,
+    "shake": false,
+    "pre_drop_hold_beats": 0.5,
+    "pre_drop_slowmo": 1.0,
+    "velocity": 0.4,
+    "glitch": 0.0,
+    "zoom_blur": 0.06
+  },
+  "effects": {
+    "intensity": 0.55,
+    "kick_zoom": 0.04,
+    "kick_shake": 0.0,
+    "kick_threshold": 0.5,
+    "cooldown_beats": 1.0,
+    "max_per_bar": 2,
+    "kick_sections": [
+      "drop",
+      "groove"
+    ],
+    "color": {
+      "brightness": 0.0,
+      "contrast": 1.08,
+      "saturation": 1.1
+    },
+    "vignette": 0.1,
+    "slow_zoom": 0.0,
+    "kick_glitch": 0.0,
+    "kick_blur": 0.03,
+    "kick_chroma": 0.0
+  },
+  "transitions": {
+    "frequency": 0.2,
+    "kinds": [
+      "zoom_blend",
+      "flash_cut"
+    ],
+    "duration_beats": 0.25,
+    "sections": [
+      "groove",
+      "build_up",
+      "drop"
+    ]
+  },
+  "energy_bias": 0.3,
+  "smart_crop": true,
+  "fade_in_secs": 0.0,
+  "fade_out_secs": 0.6,
+  "output": {
+    "platforms": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "aspect": "9:16",
+    "duration_secs": 20
+  },
+  "tags": [
+    "montage"
+  ],
+  "scoring": {
+    "energy_match": 0.7,
+    "quality": 0.5,
+    "action_alignment": 0.6,
+    "repetition_penalty": 2.0,
+    "continuity": 0.1,
+    "diversity": 1.2,
+    "niche_tags": 0.3,
+    "duration_fit": 0.3
+  }
+}

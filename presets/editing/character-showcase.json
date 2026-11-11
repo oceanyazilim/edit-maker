@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "character-showcase",
+  "name": "Character Showcase",
+  "version": 1,
+  "description": "Holds on detailed, steady shots of one subject; smart-crop focus; soft punches.",
+  "pacing": {
+    "base_shot_beats": 6.0,
+    "section_multipliers": {
+      "intro": 2.0,
+      "groove": 1.25,
+      "build_up": 1.0,
+      "drop": 0.75,
+      "breakdown": 2.0,
+      "outro": 2.0
+    },
+    "min_shot_secs": 0.8,
+    "max_shot_secs": 6.0,
+    "build_up_acceleration": 0.4
+  },
+  "beat_sync": 0.8,
+  "drop": {
+    "impact": 0.6,
+    "position": 0.35,
+    "flash": true,
+    "zoom_punch": 0.08,
+    "rgb_split": false,
+    "shake": false,
+    "pre_drop_hold_beats": 1.0,
+    "pre_drop_slowmo": 0.7,
+    "velocity": 0,
+    "glitch": 0,
+    "zoom_blur": 0
+  },
+  "effects": {
+    "intensity": 0.4,
+    "kick_zoom": 0.04,
+    "kick_shake": 0.0,
+    "kick_threshold": 0.6,
+    "cooldown_beats": 2.0,
+    "max_per_bar": 1,
+    "kick_sections": [
+      "drop"
+    ],
+    "color": {
+      "brightness": 0.02,
+      "contrast": 1.1,
+      "saturation": 1.05
+    },
+    "vignette": 0.3,
+    "slow_zoom": 0.06,
+    "kick_glitch": 0,
+    "kick_blur": 0,
+    "kick_chroma": 0
+  },
+  "transitions": {
+    "frequency": 0.3,
+    "kinds": [
+      "cross_dissolve"
+    ],
+    "duration_beats": 0.75,
+    "sections": [
+      "intro",
+      "breakdown",
+      "outro"
+    ]
+  },
+  "energy_bias": 0.0,
+  "smart_crop": true,
+  "fade_in_secs": 0.3,
+  "fade_out_secs": 0.8,
+  "output": {
+    "platforms": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "aspect": "9:16",
+    "duration_secs": 20
+  },
+  "tags": [
+    "character"
+  ],
+  "scoring": {
+    "energy_match": 0.6,
+    "quality": 1.0,
+    "action_alignment": 0.5,
+    "repetition_penalty": 1.4,
+    "continuity": 1.0,
+    "diversity": 0.5,
+    "niche_tags": 0.5,
+    "duration_fit": 0.5
+  }
+}

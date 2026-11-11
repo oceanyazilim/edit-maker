@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "cinematic-dark",
+  "name": "Cinematic Dark",
+  "version": 1,
+  "description": "Long takes, slow push-ins, dissolves, desaturated low-key grade.",
+  "pacing": {
+    "base_shot_beats": 8.0,
+    "section_multipliers": {
+      "intro": 2.0,
+      "groove": 1.0,
+      "build_up": 0.8,
+      "drop": 0.6,
+      "breakdown": 1.5,
+      "outro": 2.0
+    },
+    "min_shot_secs": 1.2,
+    "max_shot_secs": 10.0,
+    "build_up_acceleration": 0.3
+  },
+  "beat_sync": 0.6,
+  "drop": {
+    "impact": 0.5,
+    "position": 0.45,
+    "flash": false,
+    "zoom_punch": 0.04,
+    "rgb_split": false,
+    "shake": false,
+    "pre_drop_hold_beats": 2.0,
+    "pre_drop_slowmo": 0.7,
+    "velocity": 0,
+    "glitch": 0,
+    "zoom_blur": 0
+  },
+  "effects": {
+    "intensity": 0.35,
+    "kick_zoom": 0.02,
+    "kick_shake": 0.0,
+    "kick_threshold": 0.8,
+    "cooldown_beats": 4.0,
+    "max_per_bar": 1,
+    "kick_sections": [
+      "drop"
+    ],
+    "color": {
+      "brightness": -0.06,
+      "contrast": 1.15,
+      "saturation": 0.7
+    },
+    "vignette": 0.45,
+    "slow_zoom": 0.08,
+    "kick_glitch": 0,
+    "kick_blur": 0,
+    "kick_chroma": 0
+  },
+  "transitions": {
+    "frequency": 0.45,
+    "kinds": [
+      "cross_dissolve",
+      "dip_to_black"
+    ],
+    "duration_beats": 1.5,
+    "sections": [
+      "intro",
+      "groove",
+      "breakdown",
+      "outro"
+    ]
+  },
+  "energy_bias": -0.3,
+  "smart_crop": true,
+  "fade_in_secs": 0.8,
+  "fade_out_secs": 1.2,
+  "output": {
+    "platforms": [
+      "youtube"
+    ],
+    "aspect": "16:9",
+    "duration_secs": 30
+  },
+  "tags": [
+    "cinematic"
+  ],
+  "scoring": {
+    "energy_match": 0.8,
+    "quality": 0.9,
+    "action_alignment": 0.3,
+    "repetition_penalty": 1.5,
+    "continuity": 1.2,
+    "diversity": 0.4,
+    "niche_tags": 0.4,
+    "duration_fit": 0.6
+  }
+}

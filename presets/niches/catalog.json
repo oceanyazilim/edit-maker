@@ -1,0 +1,1257 @@
+[
+ {
+  "id": "anime",
+  "name": "Anime",
+  "category": "Entertainment",
+  "description": "Starting profile for Anime content (action archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "high_motion": 1.0,
+   "action_peak": 1.0,
+   "shaky": -0.2,
+   "low_motion": -0.6,
+   "colorful": 0.3
+  },
+  "default_preset": "anime-impact",
+  "cut_density_bias": 0.1,
+  "effect_intensity_bias": 0.1,
+  "transition_bias": -0.05,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "edm",
+   "trap"
+  ]
+ },
+ {
+  "id": "movies",
+  "name": "Movies",
+  "category": "Entertainment",
+  "description": "Starting profile for Movies content (cinematic archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "long_take": 0.8,
+   "static_camera": 0.4,
+   "low_motion": 0.3,
+   "shaky": -0.8,
+   "dark": 0.3
+  },
+  "default_preset": "cinematic-dark",
+  "cut_density_bias": -0.2,
+  "effect_intensity_bias": -0.2,
+  "transition_bias": 0.2,
+  "energy_bias": -0.3,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 30.0,
+  "suggested_music": [
+   "cinematic",
+   "ambient"
+  ]
+ },
+ {
+  "id": "tv-series",
+  "name": "Television Series",
+  "category": "Entertainment",
+  "description": "Starting profile for Television Series content (cinematic archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "long_take": 0.8,
+   "static_camera": 0.4,
+   "low_motion": 0.3,
+   "shaky": -0.8,
+   "dark": 0.3
+  },
+  "default_preset": "cinematic-dark",
+  "cut_density_bias": -0.2,
+  "effect_intensity_bias": -0.2,
+  "transition_bias": 0.2,
+  "energy_bias": -0.3,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 30.0,
+  "suggested_music": [
+   "cinematic",
+   "ambient"
+  ]
+ },
+ {
+  "id": "animation",
+  "name": "Animation",
+  "category": "Entertainment",
+  "description": "Starting profile for Animation content (action archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "high_motion": 1.0,
+   "action_peak": 1.0,
+   "shaky": -0.2,
+   "low_motion": -0.6,
+   "colorful": 0.3
+  },
+  "default_preset": "anime-impact",
+  "cut_density_bias": 0.1,
+  "effect_intensity_bias": 0.1,
+  "transition_bias": -0.05,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "edm",
+   "trap"
+  ]
+ },
+ {
+  "id": "character-edits",
+  "name": "Character Edits",
+  "category": "Entertainment",
+  "description": "Starting profile for Character Edits content (showcase archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "static_camera": 0.5,
+   "long_take": 0.4,
+   "shaky": -0.8,
+   "colorful": 0.2
+  },
+  "default_preset": "character-showcase",
+  "cut_density_bias": -0.1,
+  "effect_intensity_bias": -0.1,
+  "transition_bias": 0.1,
+  "energy_bias": 0.0,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "cinematic"
+  ]
+ },
+ {
+  "id": "cinematic-fan-edits",
+  "name": "Cinematic Fan Edits",
+  "category": "Entertainment",
+  "description": "Starting profile for Cinematic Fan Edits content (cinematic archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "long_take": 0.8,
+   "static_camera": 0.4,
+   "low_motion": 0.3,
+   "shaky": -0.8,
+   "dark": 0.3
+  },
+  "default_preset": "cinematic-dark",
+  "cut_density_bias": -0.2,
+  "effect_intensity_bias": -0.2,
+  "transition_bias": 0.2,
+  "energy_bias": -0.3,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 30.0,
+  "suggested_music": [
+   "cinematic",
+   "ambient"
+  ]
+ },
+ {
+  "id": "science-fiction",
+  "name": "Science Fiction",
+  "category": "Entertainment",
+  "description": "Starting profile for Science Fiction content (cinematic archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "long_take": 0.8,
+   "static_camera": 0.4,
+   "low_motion": 0.3,
+   "shaky": -0.8,
+   "dark": 0.3
+  },
+  "default_preset": "cinematic-dark",
+  "cut_density_bias": -0.2,
+  "effect_intensity_bias": -0.2,
+  "transition_bias": 0.2,
+  "energy_bias": -0.3,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 30.0,
+  "suggested_music": [
+   "cinematic",
+   "ambient"
+  ]
+ },
+ {
+  "id": "fantasy",
+  "name": "Fantasy",
+  "category": "Entertainment",
+  "description": "Starting profile for Fantasy content (cinematic archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "long_take": 0.8,
+   "static_camera": 0.4,
+   "low_motion": 0.3,
+   "shaky": -0.8,
+   "dark": 0.3
+  },
+  "default_preset": "cinematic-dark",
+  "cut_density_bias": -0.2,
+  "effect_intensity_bias": -0.2,
+  "transition_bias": 0.2,
+  "energy_bias": -0.3,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 30.0,
+  "suggested_music": [
+   "cinematic",
+   "ambient"
+  ]
+ },
+ {
+  "id": "documentary",
+  "name": "Documentary",
+  "category": "Entertainment",
+  "description": "Starting profile for Documentary content (chill archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "low_motion": 0.6,
+   "long_take": 0.6,
+   "static_camera": 0.3,
+   "shaky": -0.6
+  },
+  "default_preset": "cinematic-dark",
+  "cut_density_bias": -0.3,
+  "effect_intensity_bias": -0.3,
+  "transition_bias": 0.3,
+  "energy_bias": -0.4,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 30.0,
+  "suggested_music": [
+   "ambient",
+   "lo-fi"
+  ]
+ },
+ {
+  "id": "valorant",
+  "name": "Valorant",
+  "category": "Gaming",
+  "description": "Starting profile for Valorant content (gaming archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "high_motion": 0.8,
+   "action_peak": 1.0,
+   "colorful": 0.3,
+   "static_camera": -0.2
+  },
+  "default_preset": "gaming-highlights",
+  "cut_density_bias": 0.05,
+  "effect_intensity_bias": 0.0,
+  "transition_bias": -0.1,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "edm",
+   "trap"
+  ]
+ },
+ {
+  "id": "minecraft",
+  "name": "Minecraft",
+  "category": "Gaming",
+  "description": "Starting profile for Minecraft content (gaming archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "high_motion": 0.8,
+   "action_peak": 1.0,
+   "colorful": 0.3,
+   "static_camera": -0.2
+  },
+  "default_preset": "gaming-highlights",
+  "cut_density_bias": 0.05,
+  "effect_intensity_bias": 0.0,
+  "transition_bias": -0.1,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "edm",
+   "trap"
+  ]
+ },
+ {
+  "id": "roblox",
+  "name": "Roblox",
+  "category": "Gaming",
+  "description": "Starting profile for Roblox content (gaming archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "high_motion": 0.8,
+   "action_peak": 1.0,
+   "colorful": 0.3,
+   "static_camera": -0.2
+  },
+  "default_preset": "gaming-highlights",
+  "cut_density_bias": 0.05,
+  "effect_intensity_bias": 0.0,
+  "transition_bias": -0.1,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "edm",
+   "trap"
+  ]
+ },
+ {
+  "id": "fortnite",
+  "name": "Fortnite",
+  "category": "Gaming",
+  "description": "Starting profile for Fortnite content (gaming archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "high_motion": 0.8,
+   "action_peak": 1.0,
+   "colorful": 0.3,
+   "static_camera": -0.2
+  },
+  "default_preset": "gaming-highlights",
+  "cut_density_bias": 0.05,
+  "effect_intensity_bias": 0.0,
+  "transition_bias": -0.1,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "edm",
+   "trap"
+  ]
+ },
+ {
+  "id": "league-of-legends",
+  "name": "League of Legends",
+  "category": "Gaming",
+  "description": "Starting profile for League of Legends content (gaming archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "high_motion": 0.8,
+   "action_peak": 1.0,
+   "colorful": 0.3,
+   "static_camera": -0.2
+  },
+  "default_preset": "gaming-highlights",
+  "cut_density_bias": 0.05,
+  "effect_intensity_bias": 0.0,
+  "transition_bias": -0.1,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "edm",
+   "trap"
+  ]
+ },
+ {
+  "id": "racing-games",
+  "name": "Racing Games",
+  "category": "Gaming",
+  "description": "Starting profile for Racing Games content (velocity archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "pan_left": 0.6,
+   "pan_right": 0.6,
+   "high_motion": 0.8,
+   "action_peak": 0.4
+  },
+  "default_preset": "automotive-velocity",
+  "cut_density_bias": 0.1,
+  "effect_intensity_bias": 0.05,
+  "transition_bias": -0.05,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "techno"
+  ]
+ },
+ {
+  "id": "esports",
+  "name": "Esports",
+  "category": "Gaming",
+  "description": "Starting profile for Esports content (gaming archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "high_motion": 0.8,
+   "action_peak": 1.0,
+   "colorful": 0.3,
+   "static_camera": -0.2
+  },
+  "default_preset": "gaming-highlights",
+  "cut_density_bias": 0.05,
+  "effect_intensity_bias": 0.0,
+  "transition_bias": -0.1,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "edm",
+   "trap"
+  ]
+ },
+ {
+  "id": "general-gaming",
+  "name": "General Gaming",
+  "category": "Gaming",
+  "description": "Starting profile for General Gaming content (gaming archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "high_motion": 0.8,
+   "action_peak": 1.0,
+   "colorful": 0.3,
+   "static_camera": -0.2
+  },
+  "default_preset": "gaming-highlights",
+  "cut_density_bias": 0.05,
+  "effect_intensity_bias": 0.0,
+  "transition_bias": -0.1,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "edm",
+   "trap"
+  ]
+ },
+ {
+  "id": "gameplay-highlights",
+  "name": "Gameplay Highlights",
+  "category": "Gaming",
+  "description": "Starting profile for Gameplay Highlights content (gaming archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "high_motion": 0.8,
+   "action_peak": 1.0,
+   "colorful": 0.3,
+   "static_camera": -0.2
+  },
+  "default_preset": "gaming-highlights",
+  "cut_density_bias": 0.05,
+  "effect_intensity_bias": 0.0,
+  "transition_bias": -0.1,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "edm",
+   "trap"
+  ]
+ },
+ {
+  "id": "phonk",
+  "name": "Phonk",
+  "category": "Music",
+  "description": "Starting profile for Phonk content (music dark archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "dark": 0.8,
+   "high_motion": 0.5,
+   "action_peak": 0.6,
+   "bright": -0.3
+  },
+  "default_preset": "aggressive-phonk",
+  "cut_density_bias": 0.15,
+  "effect_intensity_bias": 0.15,
+  "transition_bias": -0.1,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "trap",
+   "hardtekk"
+  ]
+ },
+ {
+  "id": "brazilian-funk",
+  "name": "Brazilian Funk",
+  "category": "Music",
+  "description": "Starting profile for Brazilian Funk content (music bright archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "colorful": 0.8,
+   "high_motion": 0.6,
+   "action_peak": 0.5,
+   "dark": -0.2
+  },
+  "default_preset": "brazilian-funk-velocity",
+  "cut_density_bias": 0.1,
+  "effect_intensity_bias": 0.1,
+  "transition_bias": 0.0,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "edm",
+   "brazilian funk",
+   "hyperpop"
+  ]
+ },
+ {
+  "id": "hardtekk",
+  "name": "Hardtekk",
+  "category": "Music",
+  "description": "Starting profile for Hardtekk content (music dark archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "dark": 0.8,
+   "high_motion": 0.5,
+   "action_peak": 0.6,
+   "bright": -0.3
+  },
+  "default_preset": "aggressive-phonk",
+  "cut_density_bias": 0.15,
+  "effect_intensity_bias": 0.15,
+  "transition_bias": -0.1,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "trap",
+   "hardtekk"
+  ]
+ },
+ {
+  "id": "edm",
+  "name": "EDM",
+  "category": "Music",
+  "description": "Starting profile for EDM content (music bright archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "colorful": 0.8,
+   "high_motion": 0.6,
+   "action_peak": 0.5,
+   "dark": -0.2
+  },
+  "default_preset": "high-energy-edm",
+  "cut_density_bias": 0.1,
+  "effect_intensity_bias": 0.1,
+  "transition_bias": 0.0,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "edm",
+   "brazilian funk",
+   "hyperpop"
+  ]
+ },
+ {
+  "id": "techno",
+  "name": "Techno",
+  "category": "Music",
+  "description": "Starting profile for Techno content (music dark archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "dark": 0.8,
+   "high_motion": 0.5,
+   "action_peak": 0.6,
+   "bright": -0.3
+  },
+  "default_preset": "aggressive-phonk",
+  "cut_density_bias": 0.15,
+  "effect_intensity_bias": 0.15,
+  "transition_bias": -0.1,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "trap",
+   "hardtekk"
+  ]
+ },
+ {
+  "id": "trap",
+  "name": "Trap",
+  "category": "Music",
+  "description": "Starting profile for Trap content (music dark archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "dark": 0.8,
+   "high_motion": 0.5,
+   "action_peak": 0.6,
+   "bright": -0.3
+  },
+  "default_preset": "aggressive-phonk",
+  "cut_density_bias": 0.15,
+  "effect_intensity_bias": 0.15,
+  "transition_bias": -0.1,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "trap",
+   "hardtekk"
+  ]
+ },
+ {
+  "id": "hip-hop",
+  "name": "Hip-hop",
+  "category": "Music",
+  "description": "Starting profile for Hip-hop content (music dark archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "dark": 0.8,
+   "high_motion": 0.5,
+   "action_peak": 0.6,
+   "bright": -0.3
+  },
+  "default_preset": "aggressive-phonk",
+  "cut_density_bias": 0.15,
+  "effect_intensity_bias": 0.15,
+  "transition_bias": -0.1,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "trap",
+   "hardtekk"
+  ]
+ },
+ {
+  "id": "ambient",
+  "name": "Ambient",
+  "category": "Music",
+  "description": "Starting profile for Ambient content (chill archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "low_motion": 0.6,
+   "long_take": 0.6,
+   "static_camera": 0.3,
+   "shaky": -0.6
+  },
+  "default_preset": "atmospheric-ambient",
+  "cut_density_bias": -0.3,
+  "effect_intensity_bias": -0.3,
+  "transition_bias": 0.3,
+  "energy_bias": -0.4,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 30.0,
+  "suggested_music": [
+   "ambient",
+   "lo-fi"
+  ]
+ },
+ {
+  "id": "hyperpop",
+  "name": "Hyperpop",
+  "category": "Music",
+  "description": "Starting profile for Hyperpop content (music bright archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "colorful": 0.8,
+   "high_motion": 0.6,
+   "action_peak": 0.5,
+   "dark": -0.2
+  },
+  "default_preset": "fast-paced-montage",
+  "cut_density_bias": 0.1,
+  "effect_intensity_bias": 0.1,
+  "transition_bias": 0.0,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "edm",
+   "brazilian funk",
+   "hyperpop"
+  ]
+ },
+ {
+  "id": "artist-promotion",
+  "name": "Artist Promotion",
+  "category": "Music",
+  "description": "Starting profile for Artist Promotion content (showcase archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "static_camera": 0.5,
+   "long_take": 0.4,
+   "shaky": -0.8,
+   "colorful": 0.2
+  },
+  "default_preset": "music-release-teaser",
+  "cut_density_bias": -0.1,
+  "effect_intensity_bias": -0.1,
+  "transition_bias": 0.1,
+  "energy_bias": 0.0,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "cinematic"
+  ]
+ },
+ {
+  "id": "music-release-teasers",
+  "name": "Music Release Teasers",
+  "category": "Music",
+  "description": "Starting profile for Music Release Teasers content (music bright archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "colorful": 0.8,
+   "high_motion": 0.6,
+   "action_peak": 0.5,
+   "dark": -0.2
+  },
+  "default_preset": "music-release-teaser",
+  "cut_density_bias": 0.1,
+  "effect_intensity_bias": 0.1,
+  "transition_bias": 0.0,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "edm",
+   "brazilian funk",
+   "hyperpop"
+  ]
+ },
+ {
+  "id": "travel",
+  "name": "Travel",
+  "category": "Lifestyle",
+  "description": "Starting profile for Travel content (lifestyle archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "colorful": 0.6,
+   "bright": 0.4,
+   "static_camera": 0.2,
+   "shaky": -0.6
+  },
+  "default_preset": "smooth-aesthetic",
+  "cut_density_bias": -0.05,
+  "effect_intensity_bias": -0.1,
+  "transition_bias": 0.15,
+  "energy_bias": 0.0,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "house",
+   "pop"
+  ]
+ },
+ {
+  "id": "fashion",
+  "name": "Fashion",
+  "category": "Lifestyle",
+  "description": "Starting profile for Fashion content (lifestyle archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "colorful": 0.6,
+   "bright": 0.4,
+   "static_camera": 0.2,
+   "shaky": -0.6
+  },
+  "default_preset": "smooth-aesthetic",
+  "cut_density_bias": -0.05,
+  "effect_intensity_bias": -0.1,
+  "transition_bias": 0.15,
+  "energy_bias": 0.0,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "house",
+   "pop"
+  ]
+ },
+ {
+  "id": "automotive",
+  "name": "Automotive",
+  "category": "Lifestyle",
+  "description": "Starting profile for Automotive content (velocity archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "pan_left": 0.6,
+   "pan_right": 0.6,
+   "high_motion": 0.8,
+   "action_peak": 0.4
+  },
+  "default_preset": "automotive-velocity",
+  "cut_density_bias": 0.1,
+  "effect_intensity_bias": 0.05,
+  "transition_bias": -0.05,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "techno"
+  ]
+ },
+ {
+  "id": "sports",
+  "name": "Sports",
+  "category": "Lifestyle",
+  "description": "Starting profile for Sports content (action archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "high_motion": 1.0,
+   "action_peak": 1.0,
+   "shaky": -0.2,
+   "low_motion": -0.6,
+   "colorful": 0.3
+  },
+  "default_preset": "fast-paced-montage",
+  "cut_density_bias": 0.1,
+  "effect_intensity_bias": 0.1,
+  "transition_bias": -0.05,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "edm",
+   "trap"
+  ]
+ },
+ {
+  "id": "fitness",
+  "name": "Fitness",
+  "category": "Lifestyle",
+  "description": "Starting profile for Fitness content (action archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "high_motion": 1.0,
+   "action_peak": 1.0,
+   "shaky": -0.2,
+   "low_motion": -0.6,
+   "colorful": 0.3
+  },
+  "default_preset": "fast-paced-montage",
+  "cut_density_bias": 0.1,
+  "effect_intensity_bias": 0.1,
+  "transition_bias": -0.05,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "phonk",
+   "edm",
+   "trap"
+  ]
+ },
+ {
+  "id": "nature",
+  "name": "Nature",
+  "category": "Lifestyle",
+  "description": "Starting profile for Nature content (chill archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "low_motion": 0.6,
+   "long_take": 0.6,
+   "static_camera": 0.3,
+   "shaky": -0.6
+  },
+  "default_preset": "atmospheric-ambient",
+  "cut_density_bias": -0.3,
+  "effect_intensity_bias": -0.3,
+  "transition_bias": 0.3,
+  "energy_bias": -0.4,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 30.0,
+  "suggested_music": [
+   "ambient",
+   "lo-fi"
+  ]
+ },
+ {
+  "id": "architecture",
+  "name": "Architecture",
+  "category": "Lifestyle",
+  "description": "Starting profile for Architecture content (cinematic archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "long_take": 0.8,
+   "static_camera": 0.4,
+   "low_motion": 0.3,
+   "shaky": -0.8,
+   "dark": 0.3
+  },
+  "default_preset": "cinematic-dark",
+  "cut_density_bias": -0.2,
+  "effect_intensity_bias": -0.2,
+  "transition_bias": 0.2,
+  "energy_bias": -0.3,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 30.0,
+  "suggested_music": [
+   "cinematic",
+   "ambient"
+  ]
+ },
+ {
+  "id": "photography",
+  "name": "Photography",
+  "category": "Lifestyle",
+  "description": "Starting profile for Photography content (lifestyle archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "colorful": 0.6,
+   "bright": 0.4,
+   "static_camera": 0.2,
+   "shaky": -0.6
+  },
+  "default_preset": "smooth-aesthetic",
+  "cut_density_bias": -0.05,
+  "effect_intensity_bias": -0.1,
+  "transition_bias": 0.15,
+  "energy_bias": 0.0,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "house",
+   "pop"
+  ]
+ },
+ {
+  "id": "food",
+  "name": "Food",
+  "category": "Lifestyle",
+  "description": "Starting profile for Food content (lifestyle archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "colorful": 0.6,
+   "bright": 0.4,
+   "static_camera": 0.2,
+   "shaky": -0.6
+  },
+  "default_preset": "smooth-aesthetic",
+  "cut_density_bias": -0.05,
+  "effect_intensity_bias": -0.1,
+  "transition_bias": 0.15,
+  "energy_bias": 0.0,
+  "recommended_aspects": [
+   "9:16",
+   "1:1"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "house",
+   "pop"
+  ]
+ },
+ {
+  "id": "product-advertising",
+  "name": "Product Advertising",
+  "category": "Business & Commercial",
+  "description": "Starting profile for Product Advertising content (commercial archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "static_camera": 0.6,
+   "bright": 0.4,
+   "shaky": -1.0,
+   "dark": -0.3
+  },
+  "default_preset": "commercial-product-promo",
+  "cut_density_bias": -0.1,
+  "effect_intensity_bias": -0.2,
+  "transition_bias": 0.1,
+  "energy_bias": 0.0,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "corporate",
+   "pop"
+  ]
+ },
+ {
+  "id": "brand-promotion",
+  "name": "Brand Promotion",
+  "category": "Business & Commercial",
+  "description": "Starting profile for Brand Promotion content (commercial archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "static_camera": 0.6,
+   "bright": 0.4,
+   "shaky": -1.0,
+   "dark": -0.3
+  },
+  "default_preset": "commercial-product-promo",
+  "cut_density_bias": -0.1,
+  "effect_intensity_bias": -0.2,
+  "transition_bias": 0.1,
+  "energy_bias": 0.0,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "corporate",
+   "pop"
+  ]
+ },
+ {
+  "id": "e-commerce",
+  "name": "E-commerce",
+  "category": "Business & Commercial",
+  "description": "Starting profile for E-commerce content (commercial archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "static_camera": 0.6,
+   "bright": 0.4,
+   "shaky": -1.0,
+   "dark": -0.3
+  },
+  "default_preset": "commercial-product-promo",
+  "cut_density_bias": -0.1,
+  "effect_intensity_bias": -0.2,
+  "transition_bias": 0.1,
+  "energy_bias": 0.0,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "corporate",
+   "pop"
+  ]
+ },
+ {
+  "id": "application-launches",
+  "name": "Application Launches",
+  "category": "Business & Commercial",
+  "description": "Starting profile for Application Launches content (commercial archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "static_camera": 0.6,
+   "bright": 0.4,
+   "shaky": -1.0,
+   "dark": -0.3
+  },
+  "default_preset": "commercial-product-promo",
+  "cut_density_bias": -0.1,
+  "effect_intensity_bias": -0.2,
+  "transition_bias": 0.1,
+  "energy_bias": 0.0,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "corporate",
+   "pop"
+  ]
+ },
+ {
+  "id": "website-demonstrations",
+  "name": "Website Demonstrations",
+  "category": "Business & Commercial",
+  "description": "Starting profile for Website Demonstrations content (commercial archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "static_camera": 0.6,
+   "bright": 0.4,
+   "shaky": -1.0,
+   "dark": -0.3
+  },
+  "default_preset": "commercial-product-promo",
+  "cut_density_bias": -0.1,
+  "effect_intensity_bias": -0.2,
+  "transition_bias": 0.1,
+  "energy_bias": 0.0,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "corporate",
+   "pop"
+  ]
+ },
+ {
+  "id": "software-showcases",
+  "name": "Software Showcases",
+  "category": "Business & Commercial",
+  "description": "Starting profile for Software Showcases content (commercial archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "static_camera": 0.6,
+   "bright": 0.4,
+   "shaky": -1.0,
+   "dark": -0.3
+  },
+  "default_preset": "commercial-product-promo",
+  "cut_density_bias": -0.1,
+  "effect_intensity_bias": -0.2,
+  "transition_bias": 0.1,
+  "energy_bias": 0.0,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "corporate",
+   "pop"
+  ]
+ },
+ {
+  "id": "real-estate",
+  "name": "Real Estate",
+  "category": "Business & Commercial",
+  "description": "Starting profile for Real Estate content (cinematic archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "long_take": 0.8,
+   "static_camera": 0.4,
+   "low_motion": 0.3,
+   "shaky": -0.8,
+   "dark": 0.3
+  },
+  "default_preset": "cinematic-dark",
+  "cut_density_bias": -0.2,
+  "effect_intensity_bias": -0.2,
+  "transition_bias": 0.2,
+  "energy_bias": -0.3,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 30.0,
+  "suggested_music": [
+   "cinematic",
+   "ambient"
+  ]
+ },
+ {
+  "id": "corporate-presentations",
+  "name": "Corporate Presentations",
+  "category": "Business & Commercial",
+  "description": "Starting profile for Corporate Presentations content (commercial archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "static_camera": 0.6,
+   "bright": 0.4,
+   "shaky": -1.0,
+   "dark": -0.3
+  },
+  "default_preset": "commercial-product-promo",
+  "cut_density_bias": -0.1,
+  "effect_intensity_bias": -0.2,
+  "transition_bias": 0.1,
+  "energy_bias": 0.0,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "corporate",
+   "pop"
+  ]
+ },
+ {
+  "id": "motion-graphics",
+  "name": "Motion Graphics",
+  "category": "Business & Commercial",
+  "description": "Starting profile for Motion Graphics content (music bright archetype). Adjustable; not a universal rule.",
+  "tag_weights": {
+   "colorful": 0.8,
+   "high_motion": 0.6,
+   "action_peak": 0.5,
+   "dark": -0.2
+  },
+  "default_preset": "high-energy-edm",
+  "cut_density_bias": 0.1,
+  "effect_intensity_bias": 0.1,
+  "transition_bias": 0.0,
+  "energy_bias": 0.3,
+  "recommended_aspects": [
+   "16:9",
+   "9:16"
+  ],
+  "recommended_duration_secs": 15.0,
+  "suggested_music": [
+   "edm",
+   "brazilian funk",
+   "hyperpop"
+  ]
+ }
+]

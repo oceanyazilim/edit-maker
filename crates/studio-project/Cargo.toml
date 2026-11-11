@@ -1,0 +1,24 @@
+[package]
+name = "studio-project"
+description = "Project core (model, persistence, migrations, autosave), media library index (SQLite), analysis cache and the automation engine."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+studio-core = { workspace = true }
+studio-audio = { workspace = true }
+studio-vision = { workspace = true }
+studio-media = { workspace = true }
+studio-timeline = { workspace = true }
+studio-planner = { workspace = true }
+studio-render = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+rusqlite = { workspace = true }
+blake3 = { workspace = true }
+uuid = { workspace = true }
+tracing = { workspace = true }
+
+[dev-dependencies]
+image = { workspace = true }

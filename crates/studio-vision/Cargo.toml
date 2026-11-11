@@ -1,0 +1,11 @@
+[package]
+name = "studio-vision"
+description = "Video scene intelligence on decoded low-resolution frames: cuts, fades, black frames, motion, quality, focus."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+studio-core = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }

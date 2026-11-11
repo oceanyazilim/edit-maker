@@ -35,6 +35,30 @@ The app looks for FFmpeg in this order:
 
 On the development machine it was installed with `winget install --id Gyan.FFmpeg --exact` (9.0.2, GPL full build).
 
+## Setting up a new Windows machine
+
+```powershell
+# 1. Prerequisites (one time)
+winget install --id Git.Git --exact
+winget install --id Rustlang.Rustup --exact
+winget install --id Microsoft.VisualStudio.2022.BuildTools --exact --override "--quiet --wait --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended"
+winget install --id OpenJS.NodeJS.LTS --exact
+winget install --id Gyan.FFmpeg --exact
+npm install -g pnpm
+# open a new terminal so PATH changes apply
+
+# 2. Get the code and dependencies
+git clone https://github.com/oceanyazilim/edit-maker.git
+cd edit-maker
+cd apps/desktop
+pnpm install --frozen-lockfile
+
+# 3. Run
+pnpm tauri dev
+```
+
+Not in the repository (generated or machine-specific): `target/`, `node_modules/`, `apps/desktop/dist/`, `fixtures/generated/` (`cargo run -p studio-cli -- make-fixtures fixtures/generated`), render outputs, FFmpeg binaries. Projects, profiles and the media library live in the user's own folders (`Documents\AI Auto Edit Studio`, `%APPDATA%`), so they are not part of the repository; copy them separately if you want them on the other machine.
+
 ## Build & run
 
 ```powershell
